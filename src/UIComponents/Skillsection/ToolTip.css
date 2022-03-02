@@ -1,0 +1,19 @@
+.tooltip-container {
+    border-radius: 10px;
+    display: block;
+    width: 250px;
+    position: relative;
+  }
+  
+  .tooltip-title {
+    width: 50px;
+    height: 20px;
+    margin: auto;
+    padding-top: 10px;
+  }
+
+  .tooltip-body{
+    text-align: left;
+    position: relative;
+    left: -12px;
+  }
