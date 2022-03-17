@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ResumeContainer, Image, Button } from './ResumeElements';
-import Resume from '../../Assets/ResumeV1.png';
+import Resume from '../../Assets/NewGradResume.png';
 import { jsPDF } from "jspdf";
 
 const pdfDoc = new jsPDF()
@@ -18,7 +18,7 @@ const ResumeSection = () => {
 
 function downloadPDF() {
     pdfDoc.addImage(Resume, 'PNG', 0, 0, 210, 297);
-    pdfDoc.save('KaramDanialResume');
+    pdfDoc.save('Karam_Danial_Resume');
 }
 
 export default ResumeSection

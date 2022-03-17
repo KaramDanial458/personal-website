@@ -10,7 +10,7 @@ const VideoSelection = () => {
             </VideoBg>
             <VideoContent>
                 <VideoH1>Karam Danial</VideoH1>
-                <VideoP>4A Biomedical Engineering Student | <b>Software Developer</b></VideoP>
+                <VideoP>University of Waterloo Engineering | <b>Software Developer</b></VideoP>
             </VideoContent>
         </VideoContainer>
     )
