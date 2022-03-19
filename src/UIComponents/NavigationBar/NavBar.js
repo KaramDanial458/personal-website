@@ -31,9 +31,9 @@ function NavBar({ toggle }) {
                         <NavItem>
                             <NavLinks to="experience" offset={-80} smooth={true} duration={300}>Experience</NavLinks>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks to="contact" offset={-80} smooth={true} duration={300}>Contact</NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                     </NavMenu>
                 </NavBarContainer>
             </Nav>
